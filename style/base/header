@@ -1,0 +1,77 @@
+.header {
+    
+    &-photo {
+        align-items: center;
+        background-color: $SoyaBean;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+    }
+
+    &-photo__img {
+        width: 250px;
+        border-radius: 20px 50px 20px 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &-info {
+        padding: 20px 0 0 60px;
+        background-color: $SoftAmber;
+    }
+
+    &-name {
+        font-size: 36px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        font-family: 'Oswald';
+    }
+
+    &-job__vacancy {
+        font-size: 26px;
+        text-transform: uppercase;
+        padding-top: 20px;
+    }
+
+    &-experiense {
+        font-size: 32px;
+        text-transform: uppercase;
+        padding-top: 80px;
+        
+
+        &__text {
+            font-size: 22px;
+            padding-top: 20px;
+        }
+    }
+
+    &-location {
+        display: flex;
+        padding-top: 32px;
+        gap: 40px;
+
+        &__img {
+            width: 20px;
+        }
+
+        &__text {
+            font-size: 22px;
+            padding-top: 12px;
+        }
+    }
+    &-content__skills-sk {
+        font-size: 18px;
+        padding-top: 20px;
+        
+    } 
+    &-content__website {
+        margin-bottom: 32px;
+        padding-top: 42px;
+    }
+    &-content__skills-text {
+        padding-top: 20px;
+    }
+}
